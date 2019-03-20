@@ -17,9 +17,7 @@
               v-if="col.type === 'text'"
               :class="`seat-block--text`"
               :key="j"
-            >
-              {{ col.content.text }}
-            </div>
+            >{{ col.content.text }}</div>
 
             <button
               @click="selectSeat"
@@ -31,9 +29,9 @@
               :key="j"
             >
               {{
-                isSelected(col.content.seatNo)
-                  ? getPaxIndex(col.content.seatNo)
-                  : col.content.seatNo.slice(-1)
+              isSelected(col.content.seatNo)
+              ? getPaxIndex(col.content.seatNo)
+              : col.content.seatNo.slice(-1)
               }}
             </button>
 
@@ -41,25 +39,19 @@
               v-if="col.type === 'aisle'"
               :class="`seat-block--aisle`"
               :key="j"
-            >
-              {{ col.content.text }}
-            </div>
+            >{{ col.content.text }}</div>
 
             <div
               v-if="col.type === 'exit'"
               :class="`seat-block--exit`"
               :key="j"
-            >
-              {{ col.content.text }}
-            </div>
+            >{{ col.content.text }}</div>
 
             <div
               v-if="col.type === 'facility'"
               :class="`seat-block--facility`"
               :key="j"
-            >
-              {{ col.content.text }}
-            </div>
+            >{{ col.content.text }}</div>
           </template>
         </div>
       </template>
@@ -96,15 +88,11 @@
           <select v-model="currPaxIndex">
             <option :value="index" :key="index" v-for="(pax, index) in paxList">
               {{ pax.title }} {{ pax.firstName }}/{{ pax.lastName }} ({{
-                selectedSeats[index]
+              selectedSeats[index]
               }})
             </option>
           </select>
-          <button
-            @click="sendSelectedSeat(currentSeatInfo.seatNo, currPaxIndex);"
-          >
-            ok
-          </button>
+          <button @click="sendSelectedSeat(currentSeatInfo.seatNo, currPaxIndex);">ok</button>
           <button @click="resetSeatInfo">cancel</button>
         </div>
       </div>
@@ -155,7 +143,7 @@ export default {
           //小方塊/2
           evt.target.offsetWidth / 2 -
           //info/2 - 小方塊
-          (92 - evt.target.offsetWidth)
+          (110.5 - evt.target.offsetWidth)
       };
     },
 
@@ -202,8 +190,12 @@ export default {
 
     getSelectedSeats(flightNo) {
       return this.paxList.map(item => {
-        return item.seats.filter(item => item.flightNo === flightNo)[0]
-          .seatNumber;
+        if (item.seats) {
+          return item.seats.filter(item => item.flightNo === flightNo)[0]
+            .seatNumber;
+        } else {
+          return null;
+        }
       });
     },
 

@@ -14,11 +14,8 @@
       </div>
       <div class="border text-center bg-secondary">
         <h3>去程</h3>
-        <SeatSelector
-          :seatMapData="seatMapData"
-          :paxList="paxList"
-          @change="changePaxSeats"
-        />
+        <button @click="setPaxSeats">set seat</button>
+        <SeatSelector :seatMapData="seatMapData" :paxList="paxList" @change="changePaxSeats"/>
       </div>
     </div>
   </div>
@@ -43,16 +40,7 @@ export default {
           memberCard: null,
           noFirstName: false,
           hasFirstName: true,
-          seats: [
-            {
-              flightNo: "JX0110",
-              seatNumber: "5D"
-            },
-            {
-              flightNo: "JX0111",
-              seatNumber: "5C"
-            }
-          ]
+          seats: null
         },
         {
           id: "SKH-2-EXT",
@@ -63,16 +51,7 @@ export default {
           memberCard: null,
           noFirstName: false,
           hasFirstName: true,
-          seats: [
-            {
-              flightNo: "JX0110",
-              seatNumber: "6D"
-            },
-            {
-              flightNo: "JX0111",
-              seatNumber: "6C"
-            }
-          ]
+          seats: null
         }
       ],
       flightInfo: [
@@ -166,6 +145,19 @@ export default {
   methods: {
     changePaxSeats(newVal) {
       this.paxList = newVal;
+    },
+
+    setPaxSeats() {
+      this.paxList[0].seats = [
+        {
+          flightNo: "JX0110",
+          seatNumber: "5D"
+        },
+        {
+          flightNo: "JX0111",
+          seatNumber: "5C"
+        }
+      ];
     }
   },
 
