@@ -6,7 +6,7 @@
       <p>wingRows:{{ wingRows }}</p>
       <p>columns:{{ columns }}</p>
       <button @click="setWingPosition">set wing</button>
-      <button @click="getRowIndex(5);">get row index</button>
+      <button @click="setSelectedSeats()">set Seat</button>
     </div>
 
     <div class="seat-map_container border">
@@ -145,6 +145,8 @@ export default {
           //info/2 - 小方塊
           (110.5 - evt.target.offsetWidth)
       };
+
+      this.setSelectedSeats(this.currentSeatInfo.seatNo);
     },
 
     sendSelectedSeat(seatNo, paxIndex) {
@@ -190,7 +192,7 @@ export default {
 
     getSelectedSeats(flightNo) {
       return this.paxList.map(item => {
-        if (item.seats) {
+        if (item.seats.length > 0) {
           return item.seats.filter(item => item.flightNo === flightNo)[0]
             .seatNumber;
         } else {
@@ -199,8 +201,12 @@ export default {
       });
     },
 
-    setSelectedSeats() {
-      this.selectedSeats = this.getSelectedSeats(this.flightNo);
+    setSelectedSeats(seatNo) {
+      if (seatNo) {
+        this.selectedSeats.push(seatNo);
+      } else {
+        this.selectedSeats = this.getSelectedSeats(this.flightNo);
+      }
     },
 
     isSelected(seatNo) {

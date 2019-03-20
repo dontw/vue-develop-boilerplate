@@ -1,9 +1,9 @@
 export default {
-  version: "20190129",
+  version: '20190129',
   status: true,
   message: {
-    code: "0",
-    content: "OK"
+    code: '0',
+    content: 'OK'
   },
   result: {
     count: 1,
@@ -11,38 +11,38 @@ export default {
     rowPerPage: 10,
     data: [
       {
-        cabin: "eco",
-        name: "Economy",
+        cabin: 'eco',
+        name: 'Economy',
         wingRows: [3, 32],
         columns: 7,
         seats: [
           [
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "A"
+                text: 'A'
               },
               row: 0,
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "B"
+                text: 'B'
               },
               row: 0,
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "C"
+                text: 'C'
               },
               row: 0,
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -50,25 +50,25 @@ export default {
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "H"
+                text: 'D'
               },
               row: 0,
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "J"
+                text: 'E'
               },
               row: 0,
               column: 6
             },
             {
-              type: "text",
+              type: 'text',
               content: {
-                text: "K"
+                text: 'F'
               },
               row: 0,
               column: 7
@@ -76,10 +76,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3A",
-                seatType: "CH",
+                seatNo: '3A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -87,10 +87,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3B",
-                seatType: "CH",
+                seatNo: '3B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -98,10 +98,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3C",
-                seatType: "CH",
+                seatNo: '3C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -109,18 +109,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "3"
+                text: '3'
               },
               row: 1,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3D",
-                seatType: "CH",
+                seatNo: '3D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -128,10 +128,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3E",
-                seatType: "CH",
+                seatNo: '3E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -139,10 +139,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "3F",
-                seatType: "CH",
+                seatNo: '3F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -152,10 +152,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4A",
-                seatType: "CH",
+                seatNo: '4A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -163,10 +163,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4B",
-                seatType: "CH",
+                seatNo: '4B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -174,10 +174,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4C",
-                seatType: "CH",
+                seatNo: '4C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -185,18 +185,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "4"
+                text: '4'
               },
               row: 2,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4D",
-                seatType: "CH",
+                seatNo: '4D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -204,10 +204,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4E",
-                seatType: "CH",
+                seatNo: '4E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -215,10 +215,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "4F",
-                seatType: "CH",
+                seatNo: '4F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -228,10 +228,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5A",
-                seatType: "CH",
+                seatNo: '5A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -239,10 +239,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5B",
-                seatType: "CH",
+                seatNo: '5B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -250,10 +250,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5C",
-                seatType: "CH",
+                seatNo: '5C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -261,18 +261,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "5"
+                text: '5'
               },
               row: 3,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5D",
-                seatType: "CH",
+                seatNo: '5D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -280,10 +280,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5E",
-                seatType: "CH",
+                seatNo: '5E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -291,10 +291,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "5F",
-                seatType: "CH",
+                seatNo: '5F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -304,10 +304,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6A",
-                seatType: "CH",
+                seatNo: '6A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -315,10 +315,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6B",
-                seatType: "CH",
+                seatNo: '6B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -326,10 +326,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6C",
-                seatType: "CH",
+                seatNo: '6C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -337,18 +337,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "6"
+                text: '6'
               },
               row: 4,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6D",
-                seatType: "CH",
+                seatNo: '6D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -356,10 +356,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6E",
-                seatType: "CH",
+                seatNo: '6E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -367,10 +367,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "6F",
-                seatType: "CH",
+                seatNo: '6F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -380,10 +380,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7A",
-                seatType: "CH",
+                seatNo: '7A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -391,10 +391,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7B",
-                seatType: "CH",
+                seatNo: '7B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -402,10 +402,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7C",
-                seatType: "CH",
+                seatNo: '7C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -413,18 +413,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "7"
+                text: '7'
               },
               row: 5,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7D",
-                seatType: "CH",
+                seatNo: '7D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -432,10 +432,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7E",
-                seatType: "CH",
+                seatNo: '7E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -443,10 +443,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "7F",
-                seatType: "CH",
+                seatNo: '7F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -456,10 +456,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8A",
-                seatType: "CH",
+                seatNo: '8A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -467,10 +467,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8B",
-                seatType: "CH",
+                seatNo: '8B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -478,10 +478,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8C",
-                seatType: "CH",
+                seatNo: '8C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -489,18 +489,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "8"
+                text: '8'
               },
               row: 6,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8D",
-                seatType: "CH",
+                seatNo: '8D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -508,10 +508,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8E",
-                seatType: "CH",
+                seatNo: '8E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -519,10 +519,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "8F",
-                seatType: "CH",
+                seatNo: '8F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -532,15 +532,15 @@ export default {
           ],
           [
             {
-              type: "exit",
+              type: 'exit',
               content: {
-                text: "Exit"
+                text: 'Exit'
               },
               row: 8,
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -548,7 +548,7 @@ export default {
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -556,7 +556,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -564,7 +564,7 @@ export default {
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -572,7 +572,7 @@ export default {
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -580,9 +580,9 @@ export default {
               column: 6
             },
             {
-              type: "exit",
+              type: 'exit',
               content: {
-                text: "Exit"
+                text: 'Exit'
               },
               row: 8,
               column: 7
@@ -590,7 +590,7 @@ export default {
           ],
           [
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -598,10 +598,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "9B",
-                seatType: "L",
+                seatNo: '9B',
+                seatType: 'L',
                 isAvailable: true,
                 pricing: 0
               },
@@ -609,10 +609,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "9C",
-                seatType: "L",
+                seatNo: '9C',
+                seatType: 'L',
                 isAvailable: true,
                 pricing: 0
               },
@@ -620,7 +620,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -628,10 +628,10 @@ export default {
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "9D",
-                seatType: "L",
+                seatNo: '9D',
+                seatType: 'L',
                 isAvailable: true,
                 pricing: 0
               },
@@ -639,10 +639,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "9E",
-                seatType: "L",
+                seatNo: '9E',
+                seatType: 'L',
                 isAvailable: true,
                 pricing: 0
               },
@@ -650,7 +650,7 @@ export default {
               column: 6
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -660,15 +660,15 @@ export default {
           ],
           [
             {
-              type: "exit",
+              type: 'exit',
               content: {
-                text: "Exit"
+                text: 'Exit'
               },
               row: 9,
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -676,7 +676,7 @@ export default {
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -684,7 +684,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -692,7 +692,7 @@ export default {
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -700,7 +700,7 @@ export default {
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -708,9 +708,9 @@ export default {
               column: 6
             },
             {
-              type: "exit",
+              type: 'exit',
               content: {
-                text: "Exit"
+                text: 'Exit'
               },
               row: 9,
               column: 7
@@ -718,10 +718,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10A",
-                seatType: "CH",
+                seatNo: '10A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -729,10 +729,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10B",
-                seatType: "CH",
+                seatNo: '10B',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -740,10 +740,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10C",
-                seatType: "CH",
+                seatNo: '10C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -751,18 +751,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "10"
+                text: '10'
               },
               row: 9,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10D",
-                seatType: "CH",
+                seatNo: '10D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -770,10 +770,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10E",
-                seatType: "CH",
+                seatNo: '10E',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -781,10 +781,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "10F",
-                seatType: "CH",
+                seatNo: '10F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -794,10 +794,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11A",
-                seatType: "CH",
+                seatNo: '11A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -805,10 +805,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11B",
-                seatType: "CH",
+                seatNo: '11B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -816,10 +816,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11C",
-                seatType: "CH",
+                seatNo: '11C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -827,18 +827,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "11"
+                text: '11'
               },
               row: 10,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11D",
-                seatType: "CH",
+                seatNo: '11D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -846,10 +846,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11E",
-                seatType: "CH",
+                seatNo: '11E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -857,10 +857,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "11F",
-                seatType: "CH",
+                seatNo: '11F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -870,10 +870,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12A",
-                seatType: "CH",
+                seatNo: '12A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -881,10 +881,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12B",
-                seatType: "CH",
+                seatNo: '12B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -892,10 +892,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12C",
-                seatType: "CH",
+                seatNo: '12C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -903,18 +903,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "12"
+                text: '12'
               },
               row: 11,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12D",
-                seatType: "CH",
+                seatNo: '12D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -922,10 +922,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12E",
-                seatType: "CH",
+                seatNo: '12E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -933,10 +933,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "12F",
-                seatType: "CH",
+                seatNo: '12F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -946,10 +946,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13A",
-                seatType: "CH",
+                seatNo: '13A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -957,10 +957,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13B",
-                seatType: "CH",
+                seatNo: '13B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -968,10 +968,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13C",
-                seatType: "CH",
+                seatNo: '13C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -979,18 +979,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "13"
+                text: '13'
               },
               row: 12,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13D",
-                seatType: "CH",
+                seatNo: '13D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -998,10 +998,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13E",
-                seatType: "CH",
+                seatNo: '13E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1009,10 +1009,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "13F",
-                seatType: "CH",
+                seatNo: '13F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1022,10 +1022,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14A",
-                seatType: "CH",
+                seatNo: '14A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1033,10 +1033,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14B",
-                seatType: "CH",
+                seatNo: '14B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1044,10 +1044,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14C",
-                seatType: "CH",
+                seatNo: '14C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1055,18 +1055,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "14"
+                text: '14'
               },
               row: 13,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14D",
-                seatType: "CH",
+                seatNo: '14D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1074,10 +1074,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14E",
-                seatType: "CH",
+                seatNo: '14E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1085,10 +1085,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "14F",
-                seatType: "CH",
+                seatNo: '14F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1098,10 +1098,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15A",
-                seatType: "CH",
+                seatNo: '15A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1109,10 +1109,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15B",
-                seatType: "CH",
+                seatNo: '15B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1120,10 +1120,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15C",
-                seatType: "CH",
+                seatNo: '15C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1131,18 +1131,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "15"
+                text: '15'
               },
               row: 14,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15D",
-                seatType: "CH",
+                seatNo: '15D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1150,10 +1150,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15E",
-                seatType: "CH",
+                seatNo: '15E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1161,10 +1161,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "15F",
-                seatType: "CH",
+                seatNo: '15F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1174,10 +1174,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16A",
-                seatType: "CH",
+                seatNo: '16A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1185,10 +1185,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16B",
-                seatType: "CH",
+                seatNo: '16B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1196,10 +1196,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16C",
-                seatType: "CH",
+                seatNo: '16C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1207,18 +1207,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "16"
+                text: '16'
               },
               row: 15,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16D",
-                seatType: "CH",
+                seatNo: '16D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1226,10 +1226,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16E",
-                seatType: "CH",
+                seatNo: '16E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1237,10 +1237,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "16F",
-                seatType: "CH",
+                seatNo: '16F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1250,10 +1250,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17A",
-                seatType: "CH",
+                seatNo: '17A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1261,10 +1261,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17B",
-                seatType: "CH",
+                seatNo: '17B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1272,10 +1272,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17C",
-                seatType: "CH",
+                seatNo: '17C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1283,18 +1283,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "17"
+                text: '17'
               },
               row: 16,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17D",
-                seatType: "CH",
+                seatNo: '17D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1302,10 +1302,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17E",
-                seatType: "CH",
+                seatNo: '17E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1313,10 +1313,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "17F",
-                seatType: "CH",
+                seatNo: '17F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1326,10 +1326,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18A",
-                seatType: "CH",
+                seatNo: '18A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1337,10 +1337,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18B",
-                seatType: "CH",
+                seatNo: '18B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1348,10 +1348,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18C",
-                seatType: "CH",
+                seatNo: '18C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1359,18 +1359,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "18"
+                text: '18'
               },
               row: 17,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18D",
-                seatType: "CH",
+                seatNo: '18D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1378,10 +1378,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18E",
-                seatType: "CH",
+                seatNo: '18E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1389,10 +1389,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "18F",
-                seatType: "CH",
+                seatNo: '18F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1402,10 +1402,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19A",
-                seatType: "CH",
+                seatNo: '19A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1413,10 +1413,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19B",
-                seatType: "CH",
+                seatNo: '19B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1424,10 +1424,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19C",
-                seatType: "CH",
+                seatNo: '19C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1435,18 +1435,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "19"
+                text: '19'
               },
               row: 18,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19D",
-                seatType: "CH",
+                seatNo: '19D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1454,10 +1454,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19E",
-                seatType: "CH",
+                seatNo: '19E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1465,10 +1465,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "19F",
-                seatType: "CH",
+                seatNo: '19F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1478,10 +1478,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20A",
-                seatType: "CH",
+                seatNo: '20A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1489,10 +1489,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20B",
-                seatType: "CH",
+                seatNo: '20B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1500,10 +1500,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20C",
-                seatType: "CH",
+                seatNo: '20C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1511,18 +1511,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "20"
+                text: '20'
               },
               row: 19,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20D",
-                seatType: "CH",
+                seatNo: '20D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1530,10 +1530,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20E",
-                seatType: "CH",
+                seatNo: '20E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1541,10 +1541,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "20F",
-                seatType: "CH",
+                seatNo: '20F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1554,10 +1554,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21A",
-                seatType: "CH",
+                seatNo: '21A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1565,10 +1565,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21B",
-                seatType: "CH",
+                seatNo: '21B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1576,10 +1576,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21C",
-                seatType: "CH",
+                seatNo: '21C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1587,18 +1587,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "21"
+                text: '21'
               },
               row: 20,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21D",
-                seatType: "CH",
+                seatNo: '21D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1606,10 +1606,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21E",
-                seatType: "CH",
+                seatNo: '21E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1617,10 +1617,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "21F",
-                seatType: "CH",
+                seatNo: '21F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1630,7 +1630,7 @@ export default {
           ],
           [
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -1638,10 +1638,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "22B",
-                seatType: "CH",
+                seatNo: '22B',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1649,10 +1649,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "22C",
-                seatType: "CH",
+                seatNo: '22C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1660,7 +1660,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -1668,10 +1668,10 @@ export default {
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "22D",
-                seatType: "CH",
+                seatNo: '22D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1679,10 +1679,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "22E",
-                seatType: "CH",
+                seatNo: '22E',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1690,7 +1690,7 @@ export default {
               column: 6
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -1700,10 +1700,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23A",
-                seatType: "CH",
+                seatNo: '23A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1711,10 +1711,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23B",
-                seatType: "CH",
+                seatNo: '23B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1722,10 +1722,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23C",
-                seatType: "CH",
+                seatNo: '23C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1733,18 +1733,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "23"
+                text: '23'
               },
               row: 23,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23D",
-                seatType: "CH",
+                seatNo: '23D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1752,10 +1752,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23E",
-                seatType: "CH",
+                seatNo: '23E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1763,10 +1763,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "23F",
-                seatType: "CH",
+                seatNo: '23F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1776,10 +1776,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24A",
-                seatType: "CH",
+                seatNo: '24A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1787,10 +1787,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24B",
-                seatType: "CH",
+                seatNo: '24B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1798,10 +1798,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24C",
-                seatType: "CH",
+                seatNo: '24C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1809,18 +1809,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "24"
+                text: '24'
               },
               row: 24,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24D",
-                seatType: "CH",
+                seatNo: '24D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1828,10 +1828,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24E",
-                seatType: "CH",
+                seatNo: '24E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1839,10 +1839,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "24F",
-                seatType: "CH",
+                seatNo: '24F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1852,10 +1852,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25A",
-                seatType: "CH",
+                seatNo: '25A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1863,10 +1863,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25B",
-                seatType: "CH",
+                seatNo: '25B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1874,10 +1874,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25C",
-                seatType: "CH",
+                seatNo: '25C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1885,18 +1885,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "25"
+                text: '25'
               },
               row: 25,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25D",
-                seatType: "CH",
+                seatNo: '25D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1904,10 +1904,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25E",
-                seatType: "CH",
+                seatNo: '25E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1915,10 +1915,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "25F",
-                seatType: "CH",
+                seatNo: '25F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1928,10 +1928,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26A",
-                seatType: "CH",
+                seatNo: '26A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1939,10 +1939,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26B",
-                seatType: "CH",
+                seatNo: '26B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1950,10 +1950,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26C",
-                seatType: "CH",
+                seatNo: '26C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1961,18 +1961,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "26"
+                text: '26'
               },
               row: 26,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26D",
-                seatType: "CH",
+                seatNo: '26D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -1980,10 +1980,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26E",
-                seatType: "CH",
+                seatNo: '26E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -1991,10 +1991,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "26F",
-                seatType: "CH",
+                seatNo: '26F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2004,10 +2004,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27A",
-                seatType: "CH",
+                seatNo: '27A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2015,10 +2015,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27B",
-                seatType: "CH",
+                seatNo: '27B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2026,10 +2026,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27C",
-                seatType: "CH",
+                seatNo: '27C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2037,18 +2037,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "27"
+                text: '27'
               },
               row: 27,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27D",
-                seatType: "CH",
+                seatNo: '27D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2056,10 +2056,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27E",
-                seatType: "CH",
+                seatNo: '27E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2067,10 +2067,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "27F",
-                seatType: "CH",
+                seatNo: '27F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2080,10 +2080,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28A",
-                seatType: "CH",
+                seatNo: '28A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2091,10 +2091,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28B",
-                seatType: "CH",
+                seatNo: '28B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2102,10 +2102,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28C",
-                seatType: "CH",
+                seatNo: '28C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2113,18 +2113,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "28"
+                text: '28'
               },
               row: 28,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28D",
-                seatType: "CH",
+                seatNo: '28D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2132,10 +2132,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28E",
-                seatType: "CH",
+                seatNo: '28E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2143,10 +2143,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "28F",
-                seatType: "CH",
+                seatNo: '28F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2156,10 +2156,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29A",
-                seatType: "CH",
+                seatNo: '29A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2167,10 +2167,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29B",
-                seatType: "CH",
+                seatNo: '29B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2178,10 +2178,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29C",
-                seatType: "CH",
+                seatNo: '29C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2189,18 +2189,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "29"
+                text: '29'
               },
               row: 29,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29D",
-                seatType: "CH",
+                seatNo: '29D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2208,10 +2208,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29E",
-                seatType: "CH",
+                seatNo: '29E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2219,10 +2219,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "29F",
-                seatType: "CH",
+                seatNo: '29F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2232,10 +2232,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30A",
-                seatType: "CH",
+                seatNo: '30A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2243,10 +2243,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30B",
-                seatType: "CH",
+                seatNo: '30B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2254,10 +2254,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30C",
-                seatType: "CH",
+                seatNo: '30C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2265,18 +2265,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "30"
+                text: '30'
               },
               row: 30,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30D",
-                seatType: "CH",
+                seatNo: '30D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2284,10 +2284,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30E",
-                seatType: "CH",
+                seatNo: '30E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2295,10 +2295,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "30F",
-                seatType: "CH",
+                seatNo: '30F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2308,10 +2308,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31A",
-                seatType: "CH",
+                seatNo: '31A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2319,10 +2319,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31B",
-                seatType: "CH",
+                seatNo: '31B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2330,10 +2330,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31C",
-                seatType: "CH",
+                seatNo: '31C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2341,18 +2341,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "31"
+                text: '31'
               },
               row: 31,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31D",
-                seatType: "CH",
+                seatNo: '31D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2360,10 +2360,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31E",
-                seatType: "CH",
+                seatNo: '31E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2371,10 +2371,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "31F",
-                seatType: "CH",
+                seatNo: '31F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2384,10 +2384,10 @@ export default {
           ],
           [
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32A",
-                seatType: "CH",
+                seatNo: '32A',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2395,10 +2395,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32B",
-                seatType: "CH",
+                seatNo: '32B',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2406,10 +2406,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32C",
-                seatType: "CH",
+                seatNo: '32C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2417,18 +2417,18 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
-                text: "32"
+                text: '32'
               },
               row: 32,
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32D",
-                seatType: "CH",
+                seatNo: '32D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2436,10 +2436,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32E",
-                seatType: "CH",
+                seatNo: '32E',
+                seatType: 'CH',
                 isAvailable: false,
                 pricing: 0
               },
@@ -2447,10 +2447,10 @@ export default {
               column: 6
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "32F",
-                seatType: "CH",
+                seatNo: '32F',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2460,7 +2460,7 @@ export default {
           ],
           [
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2468,10 +2468,10 @@ export default {
               column: 1
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "33B",
-                seatType: "CH",
+                seatNo: '33B',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2479,10 +2479,10 @@ export default {
               column: 2
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "33C",
-                seatType: "CH",
+                seatNo: '33C',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2490,7 +2490,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -2498,10 +2498,10 @@ export default {
               column: 4
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "33D",
-                seatType: "CH",
+                seatNo: '33D',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2509,10 +2509,10 @@ export default {
               column: 5
             },
             {
-              type: "seat",
+              type: 'seat',
               content: {
-                seatNo: "33E",
-                seatType: "CH",
+                seatNo: '33E',
+                seatType: 'CH',
                 isAvailable: true,
                 pricing: 0
               },
@@ -2520,7 +2520,7 @@ export default {
               column: 6
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2530,15 +2530,15 @@ export default {
           ],
           [
             {
-              type: "facility",
+              type: 'facility',
               content: {
-                text: "Lavatory"
+                text: 'Lavatory'
               },
               row: 35,
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2546,7 +2546,7 @@ export default {
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2554,7 +2554,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -2562,7 +2562,7 @@ export default {
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2570,7 +2570,7 @@ export default {
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2578,9 +2578,9 @@ export default {
               column: 6
             },
             {
-              type: "facility",
+              type: 'facility',
               content: {
-                text: "Closet"
+                text: 'Closet'
               },
               row: 35,
               column: 7
@@ -2588,15 +2588,15 @@ export default {
           ],
           [
             {
-              type: "facility",
+              type: 'facility',
               content: {
-                text: "Lavatory"
+                text: 'Lavatory'
               },
               row: 36,
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2604,7 +2604,7 @@ export default {
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2612,7 +2612,7 @@ export default {
               column: 3
             },
             {
-              type: "aisle",
+              type: 'aisle',
               content: {
                 text: null
               },
@@ -2620,7 +2620,7 @@ export default {
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2628,7 +2628,7 @@ export default {
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2636,9 +2636,9 @@ export default {
               column: 6
             },
             {
-              type: "facility",
+              type: 'facility',
               content: {
-                text: "Lavatory"
+                text: 'Lavatory'
               },
               row: 36,
               column: 7
@@ -2646,7 +2646,7 @@ export default {
           ],
           [
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2654,7 +2654,7 @@ export default {
               column: 1
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2662,7 +2662,7 @@ export default {
               column: 2
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2670,15 +2670,15 @@ export default {
               column: 3
             },
             {
-              type: "facility",
+              type: 'facility',
               content: {
-                text: "Galley"
+                text: 'Galley'
               },
               row: 39,
               column: 4
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2686,7 +2686,7 @@ export default {
               column: 5
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2694,7 +2694,7 @@ export default {
               column: 6
             },
             {
-              type: "text",
+              type: 'text',
               content: {
                 text: null
               },
@@ -2708,16 +2708,16 @@ export default {
     meta: {
       seatTypes: [
         {
-          seatCode: "CH",
-          name: "Standard",
-          description: "",
-          notification: ""
+          seatCode: 'CH',
+          name: 'Standard',
+          description: '',
+          notification: ''
         },
         {
-          seatCode: "L",
-          name: "伸腿空間座位",
-          description: "",
-          notification: ""
+          seatCode: 'L',
+          name: '伸腿空間座位',
+          description: '',
+          notification: ''
         }
       ]
     }
