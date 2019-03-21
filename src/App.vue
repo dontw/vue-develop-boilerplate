@@ -53,6 +53,17 @@ export default {
           noFirstName: false,
           hasFirstName: true,
           seats: []
+        },
+        {
+          id: "SKH-3-EXT",
+          paxType: "CHD",
+          title: "PRINCE",
+          lastName: "MARU",
+          firstName: "TARO",
+          memberCard: null,
+          noFirstName: false,
+          hasFirstName: true,
+          seats: []
         }
       ],
       flightInfo: [
@@ -167,6 +178,17 @@ export default {
         {
           flightNo: "JX0111",
           seatNumber: "6C"
+        }
+      ];
+
+      this.paxList[2].seats = [
+        {
+          flightNo: "JX0110",
+          seatNumber: "7D"
+        },
+        {
+          flightNo: "JX0111",
+          seatNumber: "7C"
         }
       ];
     },

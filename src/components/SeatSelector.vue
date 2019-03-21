@@ -5,6 +5,9 @@
       <p>cabin:{{ cabin }}</p>
       <p>wingRows:{{ wingRows }}</p>
       <p>columns:{{ columns }}</p>
+      <p>flight:{{flightNo}}</p>
+      <p>selectedSeats:{{ selectedSeats}}</p>
+      <p>currPaxIndex:{{currPaxIndex}}</p>
       <button @click="setWingPosition">set wing</button>
       <button @click="setSelectedSeats()">set Seat</button>
     </div>
@@ -85,14 +88,6 @@
             <li>{{ currentSeatInfo.seatInfo.notification }}</li>
             <li>$:{{ currentSeatInfo.pricing }}</li>
           </ul>
-          <select v-model="currPaxIndex">
-            <option :value="index" :key="index" v-for="(pax, index) in paxList">
-              {{ pax.title }} {{ pax.firstName }}/{{ pax.lastName }} ({{
-              selectedSeats[index]
-              }})
-            </option>
-          </select>
-          <button @click="sendSelectedSeat(currentSeatInfo.seatNo, currPaxIndex);">ok</button>
           <button @click="resetSeatInfo">cancel</button>
         </div>
       </div>
@@ -115,7 +110,8 @@ export default {
   data() {
     return {
       flightNo: "JX0110",
-      currPaxIndex: null,
+      currPaxIndex: 0,
+      currPaxId: null,
       currentSeatInfo: null,
       seatInfoPosition: null,
       wingPosition: {
@@ -128,6 +124,8 @@ export default {
 
   methods: {
     selectSeat(evt) {
+      let isSelected = evt.target.className.split(" ").includes("selected");
+      //get element's data
       this.currentSeatInfo = JSON.parse(
         evt.target.getAttribute("data-content")
       );
@@ -136,6 +134,7 @@ export default {
         seatInfo: this.getSeatTypeInfo(this.currentSeatInfo.seatType)[0]
       });
 
+      //set info's position
       this.seatInfoPosition = {
         top: evt.target.offsetTop + evt.target.offsetHeight,
         left:
@@ -143,24 +142,54 @@ export default {
           //小方塊/2
           evt.target.offsetWidth / 2 -
           //info/2 - 小方塊
-          (110.5 - evt.target.offsetWidth)
+          (70 - evt.target.offsetWidth)
       };
 
-      this.setSelectedSeats(this.currentSeatInfo.seatNo);
+      if (isSelected) {
+        let selectedPaxIndex = parseInt(evt.target.textContent.trim());
+        this.currPaxIndex = selectedPaxIndex - 1;
+        this.sendSelectedSeat(null, this.currPaxIndex);
+        this.currentSeatInfo = null;
+        setTimeout(() => {
+          this.currPaxIndex = this.selectedSeats.findIndex(
+            item => item === null
+          );
+        }, 0);
+      } else {
+        this.sendSelectedSeat(this.currentSeatInfo.seatNo, this.currPaxIndex);
+      }
     },
 
     sendSelectedSeat(seatNo, paxIndex) {
-      this.currentSeatInfo = null;
       let newPaxList = JSON.parse(JSON.stringify(this.paxList));
-      newPaxList[paxIndex].seats.map(item => {
-        if (item.flightNo === this.flightNo) {
-          item.seatNumber = seatNo;
-        }
-        return item;
-      });
+
+      if (newPaxList[paxIndex].seats.length > 0) {
+        newPaxList[paxIndex].seats.map(item => {
+          if (item.flightNo === this.flightNo) {
+            item.seatNumber = seatNo;
+          } else {
+            newPaxList[paxIndex].seats.push({
+              flightNo: this.flightNo,
+              seatNumber: this.seatNo
+            });
+          }
+          return item;
+        });
+      } else {
+        newPaxList[paxIndex].seats.push({
+          flightNo: this.flightNo,
+          seatNumber: seatNo
+        });
+      }
+
       this.$emit("change", newPaxList);
       setTimeout(() => {
         this.setSelectedSeats();
+        if (this.selectedSeats.some(item => item === null)) {
+          this.currPaxIndex = this.selectedSeats.findIndex(
+            item => item === null
+          );
+        }
       }, 0);
     },
 
@@ -201,10 +230,11 @@ export default {
       });
     },
 
-    setSelectedSeats(seatNo) {
+    setSelectedSeats(seatNo, paxIndex) {
       if (seatNo) {
-        this.selectedSeats.push(seatNo);
+        this.selectedSeats[paxIndex] = seatNo;
       } else {
+        //  有預設座位
         this.selectedSeats = this.getSelectedSeats(this.flightNo);
       }
     },
@@ -220,6 +250,7 @@ export default {
 
   created() {
     this.setSelectedSeats();
+
     //assign cabin, name, wingrows, columns, seats
     Object.assign(this, this.seatMapData.result.data[0]);
     //assign seatTypes
